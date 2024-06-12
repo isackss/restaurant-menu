@@ -25,6 +25,36 @@ const page = () => {
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
+      <SectionTitle
+        title="Sopas"
+        descrip="Preparado al momento."
+        img="/assets/img/sopas.jpg"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuItems.sopas.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
+      <SectionTitle
+        title="Emparedados"
+        descrip="Servidos con papas fritas."
+        img="/assets/img/emparedados.jpg"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuItems.emparedados.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
+      <SectionTitle
+        title="Pastas"
+        descrip="Elige entre nuestras opciones de pastas."
+        img="/assets/img/pastas.jpg"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuItems.pastas.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
     </div>
   );
 };
