@@ -25,17 +25,38 @@ const MenuItem = ({ data }) => {
               {data.title}
             </div>
             <div className="line-clamp-3 text-xs text-slate-500">
-              {data.description}
+              {data.description ? data.description : "Sin descripción."}
             </div>
           </div>
-          <div className="mt-4 font-bold text-slate-800 text-sm">
-            ${data.price}
+          <div className="flex gap-4">
+            <div className="mt-4 font-bold text-slate-800 text-sm">
+              ${data.price}
+            </div>
+            {data.extras ? (
+              <div className="flex flex-col w-full text-xs justify-center">
+                <div className="flex justify-center font-bold bg-slate-100 rounded-md">
+                  Extra
+                </div>
+                <div className="flex gap-2 justify-center">
+                  {data.extras.map((extra) => (
+                    <div key={extra.title}>
+                      <div className="text-center">{extra.title}</div>
+                      <div className="text-center font-bold">
+                        ${extra.price}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
           </div>
         </div>
-        <div className="flex flex-col gap-1 items-center p-2 justify-center">
+        {/* <div className="flex flex-col gap-1 items-center p-2 justify-center">
           <FavoriteIcon className="text-red-700" />
           <div className="text-xs font-bold">10</div>
-        </div>
+        </div> */}
       </div>
     </article>
   );
