@@ -23,7 +23,7 @@ export default function Home() {
           }}
         >
           <Link href="/menu-restaurante" className="">
-            <p className="p-2 text-2xl text-[#0d2242] text-center bg-white bg-opacity-75 shadow-md">
+            <p className="p-2 text-2xl text-white text-center bg-[#0d2242] bg-opacity-75 shadow-md">
               Menú del Restaurante
             </p>
           </Link>
@@ -38,7 +38,7 @@ export default function Home() {
           }}
         >
           <Link href="/menu-piscina">
-            <p className="p-2 text-2xl text-[#0d2242] text-center bg-white bg-opacity-75 shadow-md">
+            <p className="p-2 text-2xl text-white text-center bg-[#0d2242] bg-opacity-75 shadow-md">
               Menú de Piscina
             </p>
           </Link>
@@ -52,7 +52,7 @@ export default function Home() {
           }}
         >
           <Link href="/menu-infantil">
-            <p className="p-2 text-2xl text-[#0d2242] text-center bg-white bg-opacity-75 shadow-md">
+            <p className="p-2 text-2xl text-white text-center bg-[#0d2242] bg-opacity-75 shadow-md">
               Menú para niños
             </p>
           </Link>

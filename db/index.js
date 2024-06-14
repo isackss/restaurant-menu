@@ -63,7 +63,7 @@ export const menuRestaurante = {
       description:
         "Patacon relleno de carne ahumada con suaves toques de romero.",
       price: "7.00",
-      img: "",
+      img: "/assets/img/carneahu.jpg",
     },
     {
       title: "Trío De Hojaldre",
@@ -103,8 +103,8 @@ export const menuRestaurante = {
     },
     {
       title: "Emparedado De Pollo",
-      description: "",
-      price: "Sin precio",
+      description: "Gama selecta de vegetales, pollo y mayonesa de aguacate.",
+      price: "9.00",
       img: "/assets/img/image14.png",
     },
     {
@@ -198,37 +198,37 @@ export const menuRestaurante = {
       title: "Papas Fritas",
       description: "",
       price: "3.00",
-      img: "",
+      img: "/assets/img/papas.jpeg",
     },
     {
       title: "Arroz",
       description: "",
       price: "2.50",
-      img: "",
+      img: "/assets/img/arroz.jpeg",
     },
     {
       title: "Vegetales",
       description: "",
       price: "2.50",
-      img: "",
+      img: "/assets/img/vegetales.jpeg",
     },
     {
       title: "Ensalada",
       description: "",
       price: "2.50",
-      img: "",
+      img: "/assets/img/ensalada.jpeg",
     },
     {
       title: "Patacones",
       description: "",
       price: "2.50",
-      img: "",
+      img: "/assets/img/patacones.jpeg",
     },
     {
       title: "Puré",
       description: "",
       price: "2.50",
-      img: "",
+      img: "/assets/img/pure.jpeg",
     },
   ],
 };
