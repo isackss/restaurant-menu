@@ -2,9 +2,9 @@ import Image from "next/image";
 
 import WorkspacesIcon from "@mui/icons-material/Workspaces";
 
-const SectionTitle = ({ title, descrip, img }) => {
+const SectionTitle = ({ title, descrip, img, id }) => {
   return (
-    <div className="rounded-3xl mb-2 shadow-md">
+    <div className="rounded-3xl mb-2 shadow-md" id={id}>
       <div className="max-h-32 overflow-hidden">
         <Image
           src={img}

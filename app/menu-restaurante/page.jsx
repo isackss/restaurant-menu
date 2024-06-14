@@ -1,10 +1,12 @@
 import MenuItem from "@/components/MenuItem";
+import MobileNav from "@/components/MobileNav";
 import SectionTitle from "@/components/SectionTitle";
 import { menuRestaurante } from "@/db";
 
 const page = () => {
   return (
     <div>
+      <MobileNav />
       <SectionTitle
         title="Desayunos"
         descrip="Acompáñado con café o jugo de naranda."
@@ -19,6 +21,7 @@ const page = () => {
         title="Entradas"
         descrip="Preparado al momento."
         img="/assets/img/entrada.jpg"
+        id="entradas"
       />
       <div className="flex flex-col gap-4 mb-10">
         {menuRestaurante.entradas.map((item) => (
@@ -29,6 +32,7 @@ const page = () => {
         title="Sopas"
         descrip="Preparado al momento."
         img="/assets/img/sopas.jpg"
+        id="sopas"
       />
       <div className="flex flex-col gap-4 mb-10">
         {menuRestaurante.sopas.map((item) => (
@@ -39,6 +43,7 @@ const page = () => {
         title="Emparedados"
         descrip="Servidos con papas fritas."
         img="/assets/img/emparedados.jpg"
+        id="emparedados"
       />
       <div className="flex flex-col gap-4 mb-10">
         {menuRestaurante.emparedados.map((item) => (
@@ -49,6 +54,7 @@ const page = () => {
         title="Pastas"
         descrip="Elige entre nuestras opciones de pastas."
         img="/assets/img/pastas.jpg"
+        id="pastas"
       />
       <div className="flex flex-col gap-4 mb-10">
         {menuRestaurante.pastas.map((item) => (
@@ -59,6 +65,7 @@ const page = () => {
         title="Aves"
         descrip="Preparado al momento."
         img="/assets/img/aves.jpg"
+        id="aves"
       />
       <div className="flex flex-col gap-4 mb-10">
         {menuRestaurante.aves.map((item) => (
@@ -69,6 +76,7 @@ const page = () => {
         title="Carnes"
         descrip="Preparado al momento."
         img="/assets/img/carnes.jpg"
+        id="carnes"
       />
       <div className="flex flex-col gap-4 mb-10">
         {menuRestaurante.carnes.map((item) => (
@@ -79,6 +87,7 @@ const page = () => {
         title="Pescado y Mariscos"
         descrip="Preparado al momento."
         img="/assets/img/pescados.jpg"
+        id="mariscos"
       />
       <div className="flex flex-col gap-4 mb-10">
         {menuRestaurante.mariscos.map((item) => (
@@ -89,6 +98,7 @@ const page = () => {
         title="Acompañamientos"
         descrip="Elije una de las siguientes opciones."
         img="/assets/img/acompanamientos.jpg"
+        id="acompanamientos"
       />
       <div className="flex flex-col gap-4 mb-10">
         {menuRestaurante.acompanamientos.map((item) => (

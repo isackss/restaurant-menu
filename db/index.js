@@ -124,7 +124,7 @@ export const menuRestaurante = {
     {
       title: "Pasta Maestro",
       description:
-        "Elija entre fettuccine, spaguetti, pomodo o penne. Salsas: pomodoro, alfredo, bechanel y oleo.",
+        "Elija entre fettuccine, spaguetti o penne. Salsas: pomodoro, alfredo, bechanel y oleo.",
       price: "7.00",
       img: "/assets/img/pastaconpollo.jpg",
       extras: [
@@ -259,7 +259,7 @@ export const menuPiscina = {
       description:
         "Patacón relleno de carne ahumada con suaves toques de romero.",
       price: "7.00",
-      img: "",
+      img: "/assets/img/carneahu.jpg",
     },
   ],
   sopas: [
@@ -376,3 +376,15 @@ export const menuInfantil = {
     },
   ],
 };
+
+export const navbarItems = [
+  "Desayunos",
+  "Entradas",
+  "Sopas",
+  "Emparedados",
+  "Pastas",
+  "Aves",
+  "Carnes",
+  "Pescados y Mariscos",
+  "Acompañamientos",
+];
