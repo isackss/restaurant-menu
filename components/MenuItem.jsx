@@ -12,7 +12,7 @@ const MenuItem = ({ data }) => {
             alt="pancake"
             width={300}
             height={300}
-            className="h-full"
+            className="h-full object-cover object-center"
           />
         ) : (
           "Sin foto"

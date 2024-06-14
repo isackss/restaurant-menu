@@ -20,7 +20,7 @@ const SectionTitle = ({ title, descrip, img }) => {
           <div className="text-xl font-bold">{title}</div>
           <WorkspacesIcon />
         </div>
-        <div className="text-slate-500">{descrip}</div>
+        <div className="text-slate-500 text-sm">{descrip}</div>
       </div>
     </div>
   );

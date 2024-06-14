@@ -1,6 +1,6 @@
 import MenuItem from "@/components/MenuItem";
 import SectionTitle from "@/components/SectionTitle";
-import { menuItems } from "@/db/dataRestaurante";
+import { menuRestaurante } from "@/db";
 
 const page = () => {
   return (
@@ -11,7 +11,7 @@ const page = () => {
         img="/assets/img/desayuno.png"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.desayunos.map((item) => (
+        {menuRestaurante.desayunos.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
@@ -21,7 +21,7 @@ const page = () => {
         img="/assets/img/entrada.jpg"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.entradas.map((item) => (
+        {menuRestaurante.entradas.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
@@ -31,7 +31,7 @@ const page = () => {
         img="/assets/img/sopas.jpg"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.sopas.map((item) => (
+        {menuRestaurante.sopas.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
@@ -41,7 +41,7 @@ const page = () => {
         img="/assets/img/emparedados.jpg"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.emparedados.map((item) => (
+        {menuRestaurante.emparedados.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
@@ -51,7 +51,7 @@ const page = () => {
         img="/assets/img/pastas.jpg"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.pastas.map((item) => (
+        {menuRestaurante.pastas.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
@@ -61,7 +61,7 @@ const page = () => {
         img="/assets/img/aves.jpg"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.aves.map((item) => (
+        {menuRestaurante.aves.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
@@ -71,7 +71,7 @@ const page = () => {
         img="/assets/img/carnes.jpg"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.carnes.map((item) => (
+        {menuRestaurante.carnes.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
@@ -81,7 +81,7 @@ const page = () => {
         img="/assets/img/pescados.jpg"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.mariscos.map((item) => (
+        {menuRestaurante.mariscos.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
@@ -91,7 +91,7 @@ const page = () => {
         img="/assets/img/acompanamientos.jpg"
       />
       <div className="flex flex-col gap-4 mb-10">
-        {menuItems.acompanamientos.map((item) => (
+        {menuRestaurante.acompanamientos.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
