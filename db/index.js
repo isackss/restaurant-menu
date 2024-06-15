@@ -235,19 +235,19 @@ export const menuRestaurante = {
     {
       title: "Volcán De Chocolate",
       description: "",
-      price: "",
+      price: "6.00",
       img: "/assets/img/volcan.jpg",
     },
     {
       title: "Cheesecake De Frutos Rojos",
       description: "",
-      price: "",
+      price: "6.00",
       img: "/assets/img/cheesecake.jpg",
     },
     {
       title: "Sable De Limón",
       description: "",
-      price: "",
+      price: "6.00",
       img: "/assets/img/sable.jpg",
     },
   ],
