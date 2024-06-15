@@ -105,6 +105,72 @@ const page = () => {
           <MenuItem key={item.title} data={item} />
         ))}
       </div>
+      <SectionTitle
+        title="Postres"
+        descrip="Elije una de las siguientes opciones."
+        img="/assets/img/acompanamientos.jpg"
+        id="postres"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuRestaurante.postres.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
+      <SectionTitle
+        title="Bebidas Calientes"
+        descrip="Elije una de las siguientes opciones."
+        img="/assets/img/bcalientes.jpg"
+        id="bebidasCalientes"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuRestaurante.bebidasCalientes.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
+      <SectionTitle
+        title="Bebidas Frías"
+        descrip="Elije una de las siguientes opciones."
+        img="/assets/img/bfrias.jpg"
+        id="bebidasfrias"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuRestaurante.bebidasfrias.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
+      <SectionTitle
+        title="Tragos"
+        descrip="Elije una de las siguientes opciones."
+        img="/assets/img/tragos.jpg"
+        id="tragos"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuRestaurante.tragos.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
+      <SectionTitle
+        title="Cocteles"
+        descrip="Elije una de las siguientes opciones."
+        img="/assets/img/cocteles.jpg"
+        id="cocteles"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuRestaurante.cocteles.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
+      <SectionTitle
+        title="Cervezas"
+        descrip="Elije una de las siguientes opciones."
+        img="/assets/img/cervezas.jpg"
+        id="cervezas"
+      />
+      <div className="flex flex-col gap-4 mb-10">
+        {menuRestaurante.cervezas.map((item) => (
+          <MenuItem key={item.title} data={item} />
+        ))}
+      </div>
     </div>
   );
 };

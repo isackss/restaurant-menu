@@ -231,6 +231,230 @@ export const menuRestaurante = {
       img: "/assets/img/pure.jpeg",
     },
   ],
+  postres: [
+    {
+      title: "Volcán De Chocolate",
+      description: "",
+      price: "",
+      img: "/assets/img/volcan.jpg",
+    },
+    {
+      title: "Cheesecake De Frutos Rojos",
+      description: "",
+      price: "",
+      img: "/assets/img/cheesecake.jpg",
+    },
+    {
+      title: "Sable De Limón",
+      description: "",
+      price: "",
+      img: "/assets/img/sable.jpg",
+    },
+  ],
+  bebidasCalientes: [
+    {
+      title: "Café Americano",
+      description: "",
+      price: "2.50",
+      img: "",
+    },
+    {
+      title: "Expreso/Machiato",
+      description: "",
+      price: "2.50",
+      img: "",
+    },
+    {
+      title: "Capuccino",
+      description: "",
+      price: "3.50",
+      img: "",
+    },
+    {
+      title: "Mocaccino",
+      description: "",
+      price: "3.50",
+      img: "",
+    },
+    {
+      title: "Chocolate",
+      description: "",
+      price: "2.50",
+      img: "",
+    },
+    {
+      title: "Té De Hiervas",
+      description: "",
+      price: "2.50",
+      img: "",
+    },
+  ],
+  bebidasfrias: [
+    {
+      title: "Agua Mineral",
+      description: "",
+      price: "2.00",
+      img: "",
+    },
+    {
+      title: "Sodas",
+      description: "",
+      price: "",
+      img: "",
+    },
+    {
+      title: "Jugo De Frutas de Temporada",
+      description: "Piña, sandía, melón, papaya",
+      price: "2.00",
+      img: "",
+    },
+    {
+      title: "Red Lemonade",
+      description: "Piña, sandía o limón",
+      price: "2.50",
+      img: "",
+    },
+    {
+      title: "Detox",
+      description: "Piña, naranja, apio y pepino",
+      price: "2.50",
+      img: "",
+    },
+  ],
+  tragos: [
+    {
+      title: "Whisky",
+      description: "",
+      price: "5.00",
+      img: "",
+    },
+    {
+      title: "Ron",
+      description: "",
+      price: "5.00",
+      img: "",
+    },
+    {
+      title: "Vodka",
+      description: "",
+      price: "5.00",
+      img: "",
+    },
+    {
+      title: "Gin",
+      description: "Piña, sandía o limón",
+      price: "5.00",
+      img: "",
+    },
+    {
+      title: "Tequila",
+      description: "",
+      price: "5.00",
+      img: "",
+    },
+  ],
+  cocteles: [
+    {
+      title: "Piña Colada",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Mojito",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Margarita",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Caipirinha",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Tom Collins",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Sangría",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Pisco Sour",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+  ],
+  cervezas: [
+    {
+      title: "Cerveza Nacional",
+      description: "",
+      price: "2.50",
+      img: "/assets/img/nacionalesjpg.jpg",
+    },
+    {
+      title: "Cerveza Internacional",
+      description: "",
+      price: "3.50",
+      img: "/assets/img/importadas.jpg",
+    },
+  ],
+  cocteles: [
+    {
+      title: "Piña Colada",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Mojito",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Margarita",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Caipirinha",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Tom Collins",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Sangría",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+    {
+      title: "Pisco Sour",
+      description: "",
+      price: "6.50",
+      img: "",
+    },
+  ],
 };
 
 export const menuPiscina = {

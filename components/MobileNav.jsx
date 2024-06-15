@@ -29,18 +29,45 @@ const MobileNav = () => {
       <ul
         className={`absolute z-[10] w-1/2 top-0 opacity-0 transition-all duration-500 ease-in-out bg-white h-screen  ${showNav ? "left-0 opacity-100" : "left-[-200px]"}`}
       >
-        <div className="flex flex-col gap-4 mt-8 opacity-100 w-full">
-          {Object.keys(menuRestaurante).map((cat) => (
-            <li className="cursor-pointer border-b w-full">
-              <Link
-                href={`#${cat}`}
-                key={cat}
-                className="font-bold capitalize p-4 block"
-              >
-                {cat === "acompanamientos" ? "acompañamientos" : cat}
-              </Link>
-            </li>
-          ))}
+        <div className="flex flex-col gap-2 opacity-100 w-full h-full overflow-y-scroll pb-32 pt-8">
+          {Object.keys(menuRestaurante).map((cat) => {
+            if (cat === "bebidasCalientes") {
+              return (
+                <li className="cursor-pointer border-b w-full">
+                  <Link
+                    href={`#${cat}`}
+                    key={cat}
+                    className="font-bold capitalize p-4 block"
+                  >
+                    bebidas calientes
+                  </Link>
+                </li>
+              );
+            } else if (cat === "bebidasfrias") {
+              return (
+                <li className="cursor-pointer border-b w-full">
+                  <Link
+                    href={`#${cat}`}
+                    key={cat}
+                    className="font-bold capitalize p-4 block"
+                  >
+                    bebidas frías
+                  </Link>
+                </li>
+              );
+            }
+            return (
+              <li className="cursor-pointer border-b w-full">
+                <Link
+                  href={`#${cat}`}
+                  key={cat}
+                  className="font-bold capitalize p-4 block"
+                >
+                  {cat === "acompanamientos" ? "acompañamientos" : cat}
+                </Link>
+              </li>
+            );
+          })}
         </div>
       </ul>
     </header>
