@@ -16,7 +16,14 @@ const MobileNav = () => {
     <header className="sticky top-0 ">
       <nav className="flex justify-between items-center opacity-75 bg-white w-full h-full p-4">
         <div>
-          <Image src="/assets/img/logo.png" width={50} height={50} alt="logo" />
+          <Link href="/">
+            <Image
+              src="/assets/img/logo.png"
+              width={50}
+              height={50}
+              alt="logo"
+            />
+          </Link>
         </div>
         <div>
           {showNav ? (

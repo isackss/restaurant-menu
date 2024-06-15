@@ -25,7 +25,7 @@ const MenuItem = ({ data }) => {
               {data.title}
             </div>
             <div className="line-clamp-3 text-xs text-slate-500">
-              {data.description ? data.description : "Sin descripción."}
+              {data.description}
             </div>
           </div>
           <div className="flex gap-4">
