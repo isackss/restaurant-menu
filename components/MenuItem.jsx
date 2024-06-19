@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import FavoriteIcon from "@mui/icons-material/Favorite";
+/* import FavoriteIcon from "@mui/icons-material/Favorite"; */
 
 const MenuItem = ({ data }) => {
   return (
-    <article className="flex w-full shadow-md rounded-md border-transparent overflow-hidden min-h-[130px] max-h-[130px]">
-      <div className="w-44 h-auto flex justify-center items-center">
+    <article className="flex max-h-[130px] min-h-[130px] w-full overflow-hidden rounded-md border-transparent shadow-md">
+      <div className="flex h-auto w-44 items-center justify-center">
         {data.img ? (
           <Image
             src={data.img}
@@ -19,9 +19,9 @@ const MenuItem = ({ data }) => {
         )}
       </div>
       <div className="flex w-full">
-        <div className="flex-1 flex flex-col p-2 justify-between">
+        <div className="flex flex-1 flex-col justify-between p-2">
           <div>
-            <div className="font-bold text-slate-800 leading-4 text-sm mb-1">
+            <div className="mb-1 text-sm font-bold leading-4 text-slate-800">
               {data.title}
             </div>
             <div className="line-clamp-3 text-xs text-slate-500">
@@ -29,15 +29,15 @@ const MenuItem = ({ data }) => {
             </div>
           </div>
           <div className="flex gap-4">
-            <div className="mt-4 font-bold text-slate-800 text-sm">
+            <div className="mt-4 text-sm font-bold text-slate-800">
               ${data.price}
             </div>
             {data.extras ? (
-              <div className="flex flex-col w-full text-xs justify-center">
-                <div className="flex justify-center font-bold bg-slate-100 rounded-md">
+              <div className="flex w-full flex-col justify-center text-xs">
+                <div className="flex justify-center rounded-md bg-slate-100 font-bold">
                   Extra
                 </div>
-                <div className="flex gap-2 justify-center">
+                <div className="flex justify-center gap-2">
                   {data.extras.map((extra) => (
                     <div key={extra.title}>
                       <div className="text-center">{extra.title}</div>

@@ -14,7 +14,7 @@ const MobileNav = () => {
   console.log(keys);
   return (
     <header className="sticky top-0 ">
-      <nav className="flex justify-between items-center opacity-75 bg-white w-full h-full p-4">
+      <nav className="flex size-full items-center justify-between bg-white p-4 opacity-75">
         <div>
           <Link href="/">
             <Image
@@ -34,17 +34,17 @@ const MobileNav = () => {
         </div>
       </nav>
       <ul
-        className={`absolute z-[10] w-1/2 top-0 opacity-0 transition-all duration-500 ease-in-out bg-white h-screen  ${showNav ? "left-0 opacity-100" : "left-[-200px]"}`}
+        className={`absolute top-0 z-10 h-screen w-1/2 bg-white opacity-0 transition-all duration-500 ease-in-out  ${showNav ? "left-0 opacity-100" : "left-[-200px]"}`}
       >
-        <div className="flex flex-col gap-2 opacity-100 w-full h-full overflow-y-scroll pb-32 pt-8">
+        <div className="flex size-full flex-col gap-2 overflow-y-scroll pb-32 pt-8 opacity-100">
           {Object.keys(menuRestaurante).map((cat) => {
             if (cat === "bebidasCalientes") {
               return (
-                <li className="cursor-pointer border-b w-full">
+                <li className="w-full cursor-pointer border-b" key={cat}>
                   <Link
                     href={`#${cat}`}
-                    key={cat}
-                    className="font-bold capitalize p-4 block"
+                    className="block p-4 font-bold capitalize"
+                    onClick={() => setShowNav((prev) => !prev)}
                   >
                     bebidas calientes
                   </Link>
@@ -52,11 +52,12 @@ const MobileNav = () => {
               );
             } else if (cat === "bebidasfrias") {
               return (
-                <li className="cursor-pointer border-b w-full">
+                <li className="w-full cursor-pointer border-b" key={cat}>
                   <Link
                     href={`#${cat}`}
                     key={cat}
-                    className="font-bold capitalize p-4 block"
+                    className="block p-4 font-bold capitalize"
+                    onClick={() => setShowNav((prev) => !prev)}
                   >
                     bebidas frías
                   </Link>
@@ -64,11 +65,12 @@ const MobileNav = () => {
               );
             }
             return (
-              <li className="cursor-pointer border-b w-full">
+              <li className="w-full cursor-pointer border-b" key={cat}>
                 <Link
                   href={`#${cat}`}
                   key={cat}
-                  className="font-bold capitalize p-4 block"
+                  className="block p-4 font-bold capitalize"
+                  onClick={() => setShowNav((prev) => !prev)}
                 >
                   {cat === "acompanamientos" ? "acompañamientos" : cat}
                 </Link>

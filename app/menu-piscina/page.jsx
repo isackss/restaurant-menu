@@ -10,7 +10,7 @@ const page = () => {
         descrip="Preparado al momento."
         img="/assets/img/entrada.jpg"
       />
-      <div className="flex flex-col gap-4 mb-10">
+      <div className="mb-10 flex flex-col gap-4">
         {menuPiscina.entradas.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
@@ -20,7 +20,7 @@ const page = () => {
         descrip="Servidos con papas fritas."
         img="/assets/img/emparedados.jpg"
       />
-      <div className="flex flex-col gap-4 mb-10">
+      <div className="mb-10 flex flex-col gap-4">
         {menuPiscina.emparedados.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
@@ -30,7 +30,7 @@ const page = () => {
         descrip="Preparado al momento."
         img="/assets/img/sopas.jpg"
       />
-      <div className="flex flex-col gap-4 mb-10">
+      <div className="mb-10 flex flex-col gap-4">
         {menuPiscina.sopas.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}
@@ -40,7 +40,7 @@ const page = () => {
         descrip="Preparado al momento."
         img="/assets/img/alitasbuffalo.jpg"
       />
-      <div className="flex flex-col gap-4 mb-10">
+      <div className="mb-10 flex flex-col gap-4">
         {menuPiscina.fuerte.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}

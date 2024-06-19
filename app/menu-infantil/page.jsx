@@ -10,7 +10,7 @@ const page = () => {
         descrip="Preparado al momento."
         img="/assets/img/entrada.jpg"
       />
-      <div className="flex flex-col gap-4 mb-10">
+      <div className="mb-10 flex flex-col gap-4">
         {menuInfantil.menu.map((item) => (
           <MenuItem key={item.title} data={item} />
         ))}

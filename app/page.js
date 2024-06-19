@@ -1,11 +1,10 @@
-import Categories from "@/components/Categories";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="">
-      <section className="flex flex-col gap-6 justify-center my-8">
+      <section className="my-8 flex flex-col justify-center gap-6">
         <div className="flex justify-center">
           <Image
             src="/assets/img/logo.png"
@@ -15,7 +14,7 @@ export default function Home() {
           />
         </div>
         <div
-          className="p-20 border flex items-center justify-center h-[100px]"
+          className="flex h-[100px] items-center justify-center border p-20"
           style={{
             backgroundImage: `url("/assets/img/restaurante.jpg")`,
             backgroundSize: "cover",
@@ -23,14 +22,14 @@ export default function Home() {
           }}
         >
           <Link href="/menu-restaurante" className="">
-            <p className="p-2 text-2xl text-white text-center bg-[#0d2242] bg-opacity-75 shadow-md">
+            <p className="bg-[#0d2242]/75 p-2 text-center text-2xl text-white shadow-md">
               Menú del Restaurante
             </p>
           </Link>
         </div>
 
         <div
-          className="p-20 border flex items-center justify-center h-[100px]"
+          className="flex h-[100px] items-center justify-center border p-20"
           style={{
             backgroundImage: `url("/assets/img/piscina.jpg")`,
             backgroundSize: "cover",
@@ -38,13 +37,13 @@ export default function Home() {
           }}
         >
           <Link href="/menu-piscina">
-            <p className="p-2 text-2xl text-white text-center bg-[#0d2242] bg-opacity-75 shadow-md">
+            <p className="bg-[#0d2242]/75 p-2 text-center text-2xl text-white shadow-md">
               Menú de Piscina
             </p>
           </Link>
         </div>
         <div
-          className="p-20 border flex items-center justify-center h-[100px]"
+          className="flex h-[100px] items-center justify-center border p-20"
           style={{
             backgroundImage: `url("/assets/img/infantil.jpg")`,
             backgroundSize: "cover",
@@ -52,7 +51,7 @@ export default function Home() {
           }}
         >
           <Link href="/menu-infantil">
-            <p className="p-2 text-2xl text-white text-center bg-[#0d2242] bg-opacity-75 shadow-md">
+            <p className="bg-[#0d2242]/75 p-2 text-center text-2xl text-white shadow-md">
               Menú para niños
             </p>
           </Link>

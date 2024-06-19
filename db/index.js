@@ -411,50 +411,6 @@ export const menuRestaurante = {
       img: "/assets/img/importadas.jpg",
     },
   ],
-  cocteles: [
-    {
-      title: "Piña Colada",
-      description: "",
-      price: "6.50",
-      img: "",
-    },
-    {
-      title: "Mojito",
-      description: "",
-      price: "6.50",
-      img: "",
-    },
-    {
-      title: "Margarita",
-      description: "",
-      price: "6.50",
-      img: "",
-    },
-    {
-      title: "Caipirinha",
-      description: "",
-      price: "6.50",
-      img: "",
-    },
-    {
-      title: "Tom Collins",
-      description: "",
-      price: "6.50",
-      img: "",
-    },
-    {
-      title: "Sangría",
-      description: "",
-      price: "6.50",
-      img: "",
-    },
-    {
-      title: "Pisco Sour",
-      description: "",
-      price: "6.50",
-      img: "",
-    },
-  ],
 };
 
 export const menuPiscina = {
