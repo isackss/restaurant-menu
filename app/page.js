@@ -14,45 +14,59 @@ export default function Home() {
           />
         </div>
         <div
-          className="flex h-[100px] items-center justify-center border p-20"
+          className="flex h-[100px] items-center justify-center rounded-xl border px-4 py-16 drop-shadow-lg"
           style={{
             backgroundImage: `url("/assets/img/restaurante.jpg")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
-          <Link href="/menu-restaurante" className="">
-            <p className="bg-[#0d2242]/75 p-2 text-center text-2xl text-white shadow-md">
+          <Link href="/menu-restaurante" className="w-full">
+            <p className="rounded-lg bg-gradient-to-r from-[#0d2242]/0 via-[#0d2242]/75 to-[#0d2242]/75 py-2 text-center text-2xl text-white shadow-xl">
               Menú del Restaurante
             </p>
           </Link>
         </div>
 
         <div
-          className="flex h-[100px] items-center justify-center border p-20"
+          className="flex h-[100px] items-center justify-center rounded-xl border px-4 py-16 drop-shadow-lg"
           style={{
             backgroundImage: `url("/assets/img/piscina.jpg")`,
             backgroundSize: "cover",
             backgroundPosition: "bottom",
           }}
         >
-          <Link href="/menu-piscina">
-            <p className="bg-[#0d2242]/75 p-2 text-center text-2xl text-white shadow-md">
+          <Link href="/menu-piscina" className="w-full">
+            <p className="rounded-lg bg-gradient-to-r from-[#0d2242]/0 via-[#0d2242]/75 to-[#0d2242]/100 py-2 text-center text-2xl text-white shadow-xl">
               Menú de Piscina
             </p>
           </Link>
         </div>
         <div
-          className="flex h-[100px] items-center justify-center border p-20"
+          className="flex h-[100px] items-center justify-center rounded-xl border px-4 py-16 drop-shadow-lg"
           style={{
             backgroundImage: `url("/assets/img/infantil.jpg")`,
             backgroundSize: "cover",
             backgroundPosition: "top",
           }}
         >
-          <Link href="/menu-infantil">
-            <p className="bg-[#0d2242]/75 p-2 text-center text-2xl text-white shadow-md">
+          <Link href="/menu-infantil" className="w-full">
+            <p className="rounded-lg bg-gradient-to-r from-[#0d2242]/0 via-[#0d2242]/75 to-[#0d2242]/100 py-2 text-center text-2xl text-white shadow-xl">
               Menú para niños
+            </p>
+          </Link>
+        </div>
+        <div
+          className="flex h-[100px] items-center justify-center rounded-xl border px-4 py-16 drop-shadow-lg"
+          style={{
+            backgroundImage: `url("/assets/img/bebidas.jpg")`,
+            backgroundSize: "cover",
+            backgroundPosition: "top",
+          }}
+        >
+          <Link href="/menu-bebidas" className="w-full">
+            <p className="rounded-lg  bg-gradient-to-r from-[#0d2242]/0 via-[#0d2242]/75 to-[#0d2242]/100 py-2 text-center text-2xl text-white shadow-md">
+              Menú de Bebidas
             </p>
           </Link>
         </div>

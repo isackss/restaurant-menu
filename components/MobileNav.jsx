@@ -36,7 +36,7 @@ const MobileNav = () => {
       <ul
         className={`absolute top-0 z-10 h-screen w-1/2 bg-white opacity-0 transition-all duration-500 ease-in-out  ${showNav ? "left-0 opacity-100" : "left-[-200px]"}`}
       >
-        <div className="flex size-full flex-col gap-2 overflow-y-scroll pb-32 pt-8 opacity-100">
+        <div className="flex size-full flex-col overflow-y-scroll pb-32 pt-8 opacity-100">
           {Object.keys(menuRestaurante).map((cat) => {
             if (cat === "bebidasCalientes") {
               return (
@@ -65,11 +65,11 @@ const MobileNav = () => {
               );
             }
             return (
-              <li className="w-full cursor-pointer border-b" key={cat}>
+              <li className="size-full cursor-pointer border-b" key={cat}>
                 <Link
                   href={`#${cat}`}
                   key={cat}
-                  className="block p-4 font-bold capitalize"
+                  className="block p-4 font-bold capitalize hover:bg-slate-100"
                   onClick={() => setShowNav((prev) => !prev)}
                 >
                   {cat === "acompanamientos" ? "acompañamientos" : cat}
