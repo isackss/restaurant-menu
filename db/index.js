@@ -76,13 +76,13 @@ export const menuRestaurante = {
   sopas: [
     {
       title: "Sancocho Tradicional Panameño",
-      description: "Sazon panameña de pollo con tubérculos.",
+      description: "Sazón panameña de pollo con tubérculos.",
       price: "6.00",
       img: "/assets/img/image11.png",
     },
     {
       title: "Crema De Zapallo Andino",
-      description: "Sopa cremosa de zapallo con un toque de nuez mozcada.",
+      description: "Sopa cremosa de zapallo con un toque de nuez moscada.",
       price: "6.00",
       img: "/assets/img/image12.png",
     },
@@ -124,7 +124,7 @@ export const menuRestaurante = {
     {
       title: "Pasta Maestro",
       description:
-        "Elija entre fettuccine, spaguetti o penne. Salsas: pomodoro, alfredo, bechanel y oleo.",
+        "Elija entre fettuccine, spaguetti o penne. Salsas: pomodoro, alfredo, bechamel y oleo.",
       price: "7.00",
       img: "/assets/img/pastaconpollo.jpg",
       extras: [
@@ -235,19 +235,19 @@ export const menuRestaurante = {
     {
       title: "Volcán De Chocolate",
       description: "",
-      price: "6.00",
+      price: "4.50",
       img: "/assets/img/volcan.jpg",
     },
     {
       title: "Cheesecake De Frutos Rojos",
       description: "",
-      price: "6.00",
+      price: "4.50",
       img: "/assets/img/cheesecake.jpg",
     },
     {
       title: "Sable De Limón",
       description: "",
-      price: "6.00",
+      price: "4.50",
       img: "/assets/img/sable.jpg",
     },
   ],
@@ -285,13 +285,13 @@ export const menuPiscina = {
   sopas: [
     {
       title: "Sancocho Tradicional Panameño",
-      description: "Sazon panameña de pollo con tubérculos.",
+      description: "Sazón panameña de pollo con tubérculos.",
       price: "6.00",
       img: "/assets/img/image11.png",
     },
     {
       title: "Crema De Zapallo Andino",
-      description: "Sopa cremosa de zapallo con un toque de nuez mozcada.",
+      description: "Sopa cremosa de zapallo con un toque de nuez moscada.",
       price: "6.00",
       img: "/assets/img/image12.png",
     },

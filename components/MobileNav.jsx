@@ -38,34 +38,8 @@ const MobileNav = () => {
       >
         <div className="flex size-full flex-col overflow-y-scroll pb-32 pt-8 opacity-100">
           {Object.keys(menuRestaurante).map((cat) => {
-            if (cat === "bebidasCalientes") {
-              return (
-                <li className="w-full cursor-pointer border-b" key={cat}>
-                  <Link
-                    href={`#${cat}`}
-                    className="block p-4 font-bold capitalize"
-                    onClick={() => setShowNav((prev) => !prev)}
-                  >
-                    bebidas calientes
-                  </Link>
-                </li>
-              );
-            } else if (cat === "bebidasfrias") {
-              return (
-                <li className="w-full cursor-pointer border-b" key={cat}>
-                  <Link
-                    href={`#${cat}`}
-                    key={cat}
-                    className="block p-4 font-bold capitalize"
-                    onClick={() => setShowNav((prev) => !prev)}
-                  >
-                    bebidas frías
-                  </Link>
-                </li>
-              );
-            }
             return (
-              <li className="size-full cursor-pointer border-b" key={cat}>
+              <li className="cursor-pointer border-b" key={cat}>
                 <Link
                   href={`#${cat}`}
                   key={cat}

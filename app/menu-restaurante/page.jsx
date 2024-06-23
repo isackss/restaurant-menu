@@ -111,7 +111,7 @@ const page = () => {
       <SectionTitle
         title="Postres"
         descrip="Elije una de las siguientes opciones."
-        img="/assets/img/acompanamientos.jpg"
+        img="/assets/img/postres.jpg"
         id="postres"
       />
       <div className="mb-10 flex flex-col gap-4">
