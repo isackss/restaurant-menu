@@ -5,7 +5,8 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
 import { menuRestaurante } from "@/db";
 import Link from "next/link";
-import Image from "next/image";
+/* import Image from "next/image"; */
+import Logo from "@/components/Logo";
 
 const MobileNav = () => {
   const [showNav, setShowNav] = useState(false);
@@ -13,16 +14,17 @@ const MobileNav = () => {
   const keys = Object.keys(menuRestaurante);
   console.log(keys);
   return (
-    <header className="sticky top-0 ">
-      <nav className="flex size-full items-center justify-between bg-white p-4 opacity-75">
+    <header className="sticky top-0">
+      <nav className="flex size-full items-center justify-between bg-white opacity-75">
         <div>
           <Link href="/">
-            <Image
+            {/* <Image
               src="/assets/img/logo.png"
               width={50}
               height={50}
               alt="logo"
-            />
+            /> */}
+            <Logo />
           </Link>
         </div>
         <div>
