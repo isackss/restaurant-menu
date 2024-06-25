@@ -20,7 +20,7 @@ export default function Home() {
             height={300}
           />
         </div>
-        <div onClick={() => setModal(!modal)}>
+        <div onClick={() => setModal(!modal)} className="cursor-pointer ">
           <Image
             src="/assets/img/jazztitulo.png"
             width={300}

@@ -20,7 +20,10 @@ const Modal = ({ modal, setModal }) => {
                 quod quis eaque aliquam necessitatibus vel eligendi laboriosam
                 optio quisquam sunt.
               </p> */}
-              <video src="/assets/img/jazznight.mp4" autoPlay={true} />
+
+              <video autoPlay playsInline>
+                <source src="/assets/img/jazznight.mp4" type="video/mp4" />
+              </video>
             </div>
             <div className="flex items-center justify-between border-t border-gray-300 px-4 pt-2">
               <div className="text-sm font-medium text-gray-700"></div>
@@ -29,7 +32,7 @@ const Modal = ({ modal, setModal }) => {
                 className="h-8 rounded-md bg-gray-700 px-2 text-sm text-white"
                 onClick={() => setModal(!modal)}
               >
-                Close
+                Cerrar
               </button>
             </div>
           </div>
