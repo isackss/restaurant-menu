@@ -1,9 +1,16 @@
+"use client";
+
+import { useState } from "react";
+import Modal from "@/components/Modal";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const [modal, setModal] = useState(false);
+
   return (
     <main className="">
+      <Modal modal={modal} setModal={setModal} />
       <section className="my-8 flex flex-col justify-center gap-6">
         <div className="flex justify-center">
           <Image
@@ -11,6 +18,15 @@ export default function Home() {
             alt="logo"
             width={300}
             height={300}
+          />
+        </div>
+        <div onClick={() => setModal(!modal)}>
+          <Image
+            src="/assets/img/jazztitulo.png"
+            width={300}
+            height={300}
+            alt="noche de jazz"
+            className="w-full"
           />
         </div>
         <div
