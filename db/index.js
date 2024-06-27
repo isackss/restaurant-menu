@@ -1,36 +1,50 @@
+import { mainMenu } from "./mainMenu";
+
 export const menuRestaurante = {
   desayunos: [
     {
+      _id: "0001",
+      category: "desayunos",
       title: "Pancakes Dorados",
       description: "Pancake con sirope y frutas frescas.",
       price: "6.00",
       img: "/assets/img/image1.jpeg",
     },
     {
+      _id: "0002",
+      category: "desayunos",
       title: "Tostadas Francesas",
       description: "Tostadas francesas con un toque de canela y vainilla.",
       price: "6.00",
       img: "/assets/img/image2.png",
     },
     {
+      _id: "0003",
+      category: "desayunos",
       title: "Desayuno Continental Europeo",
       description: "Selección de panes, quesos finos y carnes frías.",
       price: "6.00",
       img: "/assets/img/image3.jpeg",
     },
     {
+      _id: "0004",
+      category: "desayunos",
       title: "Desayuno Americano Clásico",
       description: "Huevos al gusto, tocino y papas doradas.",
       price: "9.00",
       img: "/assets/img/image4.jpeg",
     },
     {
+      _id: "0005",
+      category: "desayunos",
       title: "Frescura Matutina",
       description: "Plato de frutas de temporada.",
       price: "5.00",
       img: "/assets/img/image5.jpeg",
     },
     {
+      _id: "0006",
+      category: "desayunos",
       title: "Parfait",
       description: "Yogourt, granola y frutas.",
       price: "4.50",
@@ -39,6 +53,8 @@ export const menuRestaurante = {
   ],
   entradas: [
     {
+      _id: "0007",
+      category: "entradas",
       title: "Tiradito De Corvina",
       description:
         "Finas láminas de corvina marinada en citricos con toques de cilantro.",
@@ -46,6 +62,8 @@ export const menuRestaurante = {
       img: "/assets/img/image7.png",
     },
     {
+      _id: "0008",
+      category: "entradas",
       title: "Ensalada Jardín De La Reina",
       description:
         "Variedad de vegetales frescos de temporada con vinagreta de la casa.",
@@ -53,12 +71,16 @@ export const menuRestaurante = {
       img: "/assets/img/image8.png",
     },
     {
+      _id: "0009",
+      category: "entradas",
       title: "Capresse Al Oleo",
       description: "Tomate mozzarela fresca y albahaca.",
       price: "8.00",
       img: "/assets/img/image9.png",
     },
     {
+      _id: "0010",
+      category: "entradas",
       title: "Carne Ahumada",
       description:
         "Patacon relleno de carne ahumada con suaves toques de romero.",
@@ -66,6 +88,8 @@ export const menuRestaurante = {
       img: "/assets/img/carneahu.jpg",
     },
     {
+      _id: "0011",
+      category: "entradas",
       title: "Trío De Hojaldre",
       description:
         "Combinación de vegetales, carne ahumada y pollo en masa panameña.",
@@ -75,12 +99,16 @@ export const menuRestaurante = {
   ],
   sopas: [
     {
+      _id: "0012",
+      category: "sopas",
       title: "Sancocho Tradicional Panameño",
       description: "Sazón panameña de pollo con tubérculos.",
       price: "6.00",
       img: "/assets/img/image11.png",
     },
     {
+      _id: "0014",
+      category: "sopas",
       title: "Crema De Zapallo Andino",
       description: "Sopa cremosa de zapallo con un toque de nuez moscada.",
       price: "6.00",
@@ -89,6 +117,8 @@ export const menuRestaurante = {
   ],
   emparedados: [
     {
+      _id: "0015",
+      category: "emparedados",
       title: "Hamburquesa Gourmet",
       description:
         "Carne de res premium, queso cheddar, vegetales y aderezos selectos.",
@@ -96,24 +126,32 @@ export const menuRestaurante = {
       img: "",
     },
     {
+      _id: "0016",
+      category: "emparedados",
       title: "Emparedado Verde",
       description: "Vegetales asados, queso búfala.",
       price: "9.00",
       img: "/assets/img/image13.png",
     },
     {
+      _id: "0017",
+      category: "emparedados",
       title: "Emparedado De Pollo",
       description: "Gama selecta de vegetales, pollo y mayonesa de aguacate.",
       price: "9.00",
       img: "/assets/img/image14.png",
     },
     {
+      _id: "0018",
+      category: "emparedados",
       title: "Emparedado De Res",
       description: "Carne selecta, vegetales de temporada y queso mozarella.",
       price: "11.00",
       img: "/assets/img/image15.png",
     },
     {
+      _id: "0019",
+      category: "emparedados",
       title: "Club Sandwich De Lujo",
       description: "Triple capa de sabores con pollo, tocino y huevo.",
       price: "10.00",
@@ -122,6 +160,8 @@ export const menuRestaurante = {
   ],
   pastas: [
     {
+      _id: "0020",
+      category: "pastas",
       title: "Pasta Maestro",
       description:
         "Elija entre fettuccine, spaguetti o penne. Salsas: pomodoro, alfredo, bechamel y oleo.",
@@ -136,6 +176,8 @@ export const menuRestaurante = {
   ],
   aves: [
     {
+      _id: "0021",
+      category: "aves",
       title: "Pollo Parmesano",
       description:
         "Pechuga de pollo empanizada con queso parmesano y salsa de tomate.",
@@ -143,6 +185,8 @@ export const menuRestaurante = {
       img: "/assets/img/image17.png",
     },
     {
+      _id: "0022",
+      category: "aves",
       title: "Pollo Herb Garden",
       description:
         "Pechuga de pollo sazonada con finas hiervas, servida con ensalada.",
@@ -152,6 +196,8 @@ export const menuRestaurante = {
   ],
   carnes: [
     {
+      _id: "0023",
+      category: "carnes",
       title: "Filete De Res A La Parrilla",
       description:
         "Filete de res en salsa de pimienta, acompañado de puré de papas.",
@@ -159,6 +205,8 @@ export const menuRestaurante = {
       img: "/assets/img/image19.png",
     },
     {
+      _id: "0024",
+      category: "carnes",
       title: "Baby Beech Al Chimichurry",
       description: "Filete a la brasa acompañado de un pimiento relleno.",
       price: "16.50",
@@ -167,12 +215,16 @@ export const menuRestaurante = {
   ],
   mariscos: [
     {
+      _id: "0025",
+      category: "mariscos",
       title: "Corvina Verde Esmeralda",
       description: "Corvina en salsa de tomatillo verde, acompañada de arroz.",
       price: "16.50",
       img: "/assets/img/image21.png",
     },
     {
+      _id: "0026",
+      category: "mariscos",
       title: "Salmón Nórdico",
       description:
         "Salmón fresco bañado en salsa de maracuya, acompañado de vegetales.",
@@ -180,12 +232,16 @@ export const menuRestaurante = {
       img: "/assets/img/image22.png",
     },
     {
+      _id: "0027",
+      category: "mariscos",
       title: "Camarones Tropical Dream",
       description: "Camarones delicadamente cocidos en un fumet de ajillo.",
       price: "12.00",
       img: "/assets/img/image23.png",
     },
     {
+      _id: "0028",
+      category: "mariscos",
       title: "Cazuela Marina De Marisco",
       description:
         "Selección de mariscos en caldo aromático de coco, toques de azafrán y finas hiervas.",
@@ -195,36 +251,48 @@ export const menuRestaurante = {
   ],
   acompanamientos: [
     {
+      _id: "0029",
+      category: "acompanamientos",
       title: "Papas Fritas",
       description: "",
       price: "3.00",
       img: "/assets/img/papas.jpeg",
     },
     {
+      _id: "0030",
+      category: "acompanamientos",
       title: "Arroz",
       description: "",
       price: "2.50",
       img: "/assets/img/arroz.jpeg",
     },
     {
+      _id: "0031",
+      category: "acompanamientos",
       title: "Vegetales",
       description: "",
       price: "2.50",
       img: "/assets/img/vegetales.jpeg",
     },
     {
+      _id: "0032",
+      category: "acompanamientos",
       title: "Ensalada",
       description: "",
       price: "2.50",
       img: "/assets/img/ensalada.jpeg",
     },
     {
+      _id: "0033",
+      category: "acompanamientos",
       title: "Patacones",
       description: "",
       price: "2.50",
       img: "/assets/img/patacones.jpeg",
     },
     {
+      _id: "0034",
+      category: "acompanamientos",
       title: "Puré",
       description: "",
       price: "2.50",
@@ -233,18 +301,24 @@ export const menuRestaurante = {
   ],
   postres: [
     {
+      _id: "0035",
+      category: "postres",
       title: "Volcán De Chocolate",
       description: "",
       price: "4.50",
       img: "/assets/img/volcan.jpg",
     },
     {
+      _id: "0036",
+      category: "postres",
       title: "Cheesecake De Frutos Rojos",
       description: "",
       price: "4.50",
       img: "/assets/img/cheesecake.jpg",
     },
     {
+      _id: "0037",
+      category: "postres",
       title: "Sable De Limón",
       description: "",
       price: "4.50",
@@ -571,3 +645,5 @@ export const navbarItems = [
   "Pescados y Mariscos",
   "Acompañamientos",
 ];
+
+export { mainMenu };

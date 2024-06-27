@@ -1,0 +1,43 @@
+Departamento o Categoría
+    + _id
+    + Descripción
+    + Descripción detallada
+    + Estado
+        - Activo
+        - Inactivo
+    + Manejo de vencimientos (Solo para lotes)
+        - Si
+        - No
+    + Clasificación
+        - Producto
+        - Servicio
+    + Tipo de Costo
+        - Costo promedio
+        - Costo por lote
+        - Tallas y colores
+
+Inventario
+    + _id
+    + Departamento o Categoría
+    + Descripción
+    + Categoría
+    + Descripción detallada
+    + Modelo
+    + Marca
+    + Referencia
+    + Unidad
+    + Fecha de creación
+    + Peso producto
+    + Existencia con decimalas (Si, No)
+    + Estado
+        - Activo
+        - Inactivo
+    + Garantía
+    + Activar vendedor fijo
+    + Sujeto a comisión fija
+    + Monto de comisión
+    + Vendedor fijo
+    + Etiquetas de código de barras (Impresión)
+    + Utiliza balanza (Punto de venta)
+    + Imagen o foto
+
