@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <SectionTitle
-        title="Entradas"
+        title="Menú Infantil"
         descrip="Preparado al momento."
         img="/assets/img/entrada.jpg"
       />
