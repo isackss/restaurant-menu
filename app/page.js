@@ -1,17 +1,17 @@
 "use client";
 
-import { useState } from "react";
-import Modal from "@/components/Modal";
+/* import { useState } from "react"; */
+/* import Modal from "@/components/Modal"; */
 import Image from "next/image";
 import Link from "next/link";
 import { mainMenu } from "@/db";
 
 export default function Home() {
-  const [modal, setModal] = useState(false);
+  /* const [modal, setModal] = useState(false); */
 
   return (
     <main>
-      <Modal modal={modal} setModal={setModal} />
+      {/* <Modal modal={modal} setModal={setModal} /> */}
       <section className="my-8 flex flex-col justify-center gap-6">
         <div className="flex justify-center">
           <Image
@@ -21,7 +21,7 @@ export default function Home() {
             height={300}
           />
         </div>
-        <div onClick={() => setModal(!modal)} className="cursor-pointer ">
+        {/* <div onClick={() => setModal(!modal)} className="cursor-pointer ">
           <Image
             src="/assets/img/jazztitulo.png"
             width={300}
@@ -29,7 +29,7 @@ export default function Home() {
             alt="noche de jazz"
             className="w-full"
           />
-        </div>
+        </div> */}
         {mainMenu.map((item) => (
           <div
             className="flex h-[100px] items-center justify-center rounded-xl border px-4 py-16 drop-shadow-lg"
