@@ -10,17 +10,40 @@ export default function Home() {
   /* const [modal, setModal] = useState(false); */
 
   return (
-    <main>
+    <div className="">
       {/* <Modal modal={modal} setModal={setModal} /> */}
-      <section className="my-8 flex flex-col justify-center gap-6">
-        <div className="flex justify-center">
-          <Image
-            src="/assets/img/logo.png"
-            alt="logo"
-            width={300}
-            height={300}
-          />
+      <header
+        style={{ backgroundImage: "url('/assets/img/fachadahotel-sm.jpg')" }}
+        className="w-full h-60 bg-cover flex justify-end"
+      >
+        {/* <Image
+          src="/assets/img/fachadahotel.jpg"
+          width={100}
+          height={100}
+          alt="Fachada del hotel"
+          className="w-full object-cover"
+        /> */}
+        <div className="flex flex-col-reverse items-end p-2 justify-between h-full bg-[#0d2242] w-24 self-end">
+          <div className="">
+            <Image
+              src="/assets/img/logo.png"
+              alt="logo"
+              width={75}
+              height={75}
+              className=""
+            />
+          </div>
+          <div>
+            <Image
+              src="/assets/img/princesslogo.png"
+              width={75}
+              height={75}
+              className="object-contain"
+            />
+          </div>
         </div>
+      </header>
+      <section className="my-8 flex flex-col justify-center gap-6 px-2">
         {/* <div onClick={() => setModal(!modal)} className="cursor-pointer ">
           <Image
             src="/assets/img/jazztitulo.png"
@@ -44,6 +67,6 @@ export default function Home() {
           </div>
         ))}
       </section>
-    </main>
+    </div>
   );
 }
