@@ -7,7 +7,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Pancakes Dorados",
       description: "Pancake con sirope y frutas frescas.",
-      price: "6.00",
+      price: "7.00",
       img: "/assets/img/image1.jpeg",
     },
     {
@@ -15,7 +15,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Tostadas Francesas",
       description: "Tostadas francesas con un toque de canela y vainilla.",
-      price: "6.00",
+      price: "7.00",
       img: "/assets/img/image2.png",
     },
     {
@@ -23,7 +23,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Desayuno Continental Europeo",
       description: "Selección de panes, quesos finos y carnes frías.",
-      price: "6.00",
+      price: "7.00",
       img: "/assets/img/image3.jpeg",
     },
     {
@@ -31,7 +31,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Desayuno Americano Clásico",
       description: "Huevos al gusto, tocino y papas doradas.",
-      price: "9.00",
+      price: "10.00",
       img: "/assets/img/image4.jpeg",
     },
     {
@@ -39,7 +39,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Frescura Matutina",
       description: "Plato de frutas de temporada.",
-      price: "5.00",
+      price: "6.00",
       img: "/assets/img/image5.jpeg",
     },
     {
@@ -47,7 +47,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Parfait",
       description: "Yogourt, granola y frutas.",
-      price: "4.50",
+      price: "5.50",
       img: "/assets/img/image6.jpeg",
     },
   ],
@@ -58,7 +58,7 @@ export const menuRestaurante = {
       title: "Tiradito De Corvina",
       description:
         "Finas láminas de corvina marinada en citricos con toques de cilantro.",
-      price: "8.00",
+      price: "9.00",
       img: "/assets/img/image7.png",
     },
     {
@@ -67,7 +67,7 @@ export const menuRestaurante = {
       title: "Ensalada Jardín De La Reina",
       description:
         "Variedad de vegetales frescos de temporada con vinagreta de la casa.",
-      price: "7.00",
+      price: "8.00",
       img: "/assets/img/image8.png",
     },
     {
@@ -75,7 +75,7 @@ export const menuRestaurante = {
       category: "entradas",
       title: "Capresse Al Oleo",
       description: "Tomate mozzarela fresca y albahaca.",
-      price: "8.00",
+      price: "9.00",
       img: "/assets/img/image9.png",
     },
     {
@@ -84,7 +84,7 @@ export const menuRestaurante = {
       title: "Carne Ahumada",
       description:
         "Patacon relleno de carne ahumada con suaves toques de romero.",
-      price: "7.00",
+      price: "8.00",
       img: "/assets/img/carneahu.jpg",
     },
     {
@@ -93,7 +93,7 @@ export const menuRestaurante = {
       title: "Trío De Hojaldre",
       description:
         "Combinación de vegetales, carne ahumada y pollo en masa panameña.",
-      price: "9.00",
+      price: "10.00",
       img: "/assets/img/image10.png",
     },
   ],
@@ -103,7 +103,7 @@ export const menuRestaurante = {
       category: "sopas",
       title: "Sancocho Tradicional Panameño",
       description: "Sazón panameña de pollo con tubérculos.",
-      price: "6.00",
+      price: "7.00",
       img: "/assets/img/image11.png",
     },
     {
@@ -111,7 +111,7 @@ export const menuRestaurante = {
       category: "sopas",
       title: "Crema De Zapallo Andino",
       description: "Sopa cremosa de zapallo con un toque de nuez moscada.",
-      price: "6.00",
+      price: "7.00",
       img: "/assets/img/image12.png",
     },
   ],
@@ -122,7 +122,7 @@ export const menuRestaurante = {
       title: "Hamburquesa Gourmet",
       description:
         "Carne de res premium, queso cheddar, vegetales y aderezos selectos.",
-      price: "10.00",
+      price: "11.00",
       img: "",
     },
     {
@@ -130,7 +130,7 @@ export const menuRestaurante = {
       category: "emparedados",
       title: "Emparedado Verde",
       description: "Vegetales asados, queso búfala.",
-      price: "9.00",
+      price: "10.00",
       img: "/assets/img/image13.png",
     },
     {
@@ -138,7 +138,7 @@ export const menuRestaurante = {
       category: "emparedados",
       title: "Emparedado De Pollo",
       description: "Gama selecta de vegetales, pollo y mayonesa de aguacate.",
-      price: "9.00",
+      price: "10.00",
       img: "/assets/img/image14.png",
     },
     {
@@ -146,7 +146,7 @@ export const menuRestaurante = {
       category: "emparedados",
       title: "Emparedado De Res",
       description: "Carne selecta, vegetales de temporada y queso mozarella.",
-      price: "11.00",
+      price: "12.00",
       img: "/assets/img/image15.png",
     },
     {
@@ -154,7 +154,7 @@ export const menuRestaurante = {
       category: "emparedados",
       title: "Club Sandwich De Lujo",
       description: "Triple capa de sabores con pollo, tocino y huevo.",
-      price: "10.00",
+      price: "11.00",
       img: "/assets/img/image16.jpeg",
     },
   ],
@@ -165,7 +165,7 @@ export const menuRestaurante = {
       title: "Pasta Maestro",
       description:
         "Elija entre fettuccine, spaguetti o penne. Salsas: pomodoro, alfredo, bechamel y oleo.",
-      price: "7.00",
+      price: "8.00",
       img: "/assets/img/pastaconpollo.jpg",
       extras: [
         { title: "Pollo", price: "4.50" },
@@ -181,7 +181,7 @@ export const menuRestaurante = {
       title: "Pollo Parmesano",
       description:
         "Pechuga de pollo empanizada con queso parmesano y salsa de tomate.",
-      price: "12.00",
+      price: "13.00",
       img: "/assets/img/image17.png",
     },
     {
@@ -190,7 +190,7 @@ export const menuRestaurante = {
       title: "Pollo Herb Garden",
       description:
         "Pechuga de pollo sazonada con finas hiervas, servida con ensalada.",
-      price: "14.00",
+      price: "15.00",
       img: "/assets/img/image18.png",
     },
   ],
@@ -201,7 +201,7 @@ export const menuRestaurante = {
       title: "Filete De Res A La Parrilla",
       description:
         "Filete de res en salsa de pimienta, acompañado de puré de papas.",
-      price: "14.50",
+      price: "15.50",
       img: "/assets/img/image19.png",
     },
     {
@@ -209,7 +209,7 @@ export const menuRestaurante = {
       category: "carnes",
       title: "Baby Beech Al Chimichurry",
       description: "Filete a la brasa acompañado de un pimiento relleno.",
-      price: "16.50",
+      price: "17.50",
       img: "/assets/img/image20.png",
     },
   ],
@@ -219,7 +219,7 @@ export const menuRestaurante = {
       category: "mariscos",
       title: "Corvina Verde Esmeralda",
       description: "Corvina en salsa de tomatillo verde, acompañada de arroz.",
-      price: "16.50",
+      price: "17.50",
       img: "/assets/img/image21.png",
     },
     {
@@ -228,7 +228,7 @@ export const menuRestaurante = {
       title: "Salmón Nórdico",
       description:
         "Salmón fresco bañado en salsa de maracuya, acompañado de vegetales.",
-      price: "18.00",
+      price: "19.00",
       img: "/assets/img/image22.png",
     },
     {
@@ -236,7 +236,7 @@ export const menuRestaurante = {
       category: "mariscos",
       title: "Camarones Tropical Dream",
       description: "Camarones delicadamente cocidos en un fumet de ajillo.",
-      price: "12.00",
+      price: "13.00",
       img: "/assets/img/image23.png",
     },
     {
@@ -245,7 +245,7 @@ export const menuRestaurante = {
       title: "Cazuela Marina De Marisco",
       description:
         "Selección de mariscos en caldo aromático de coco, toques de azafrán y finas hiervas.",
-      price: "12.00",
+      price: "13.00",
       img: "/assets/img/image24.png",
     },
   ],
@@ -332,27 +332,27 @@ export const menuPiscina = {
     {
       title: "Plato De Frutas",
       description: "Frutas de temporada.",
-      price: "5.00",
+      price: "6.00",
       img: "/assets/img/image5.jpeg",
     },
     {
       title: "Tiradito De Corvina",
       description:
         "Finas láminas de corvina marinada en cítricos con toques de cilantro.",
-      price: "8.00",
+      price: "9.00",
       img: "/assets/img/image7.png",
     },
     {
       title: "Deditos De Pollo",
       description: "Deditos de pollo acompañado de papas fritas.",
-      price: "7.50",
+      price: "8.50",
       img: "/assets/img/image25.png",
     },
     {
       title: "Carne Ahumada",
       description:
         "Patacón relleno de carne ahumada con suaves toques de romero.",
-      price: "7.00",
+      price: "8.00",
       img: "/assets/img/carneahu.jpg",
     },
   ],
@@ -360,13 +360,13 @@ export const menuPiscina = {
     {
       title: "Sancocho Tradicional Panameño",
       description: "Sazón panameña de pollo con tubérculos.",
-      price: "6.00",
+      price: "7.00",
       img: "/assets/img/image11.png",
     },
     {
       title: "Crema De Zapallo Andino",
       description: "Sopa cremosa de zapallo con un toque de nuez moscada.",
-      price: "6.00",
+      price: "7.00",
       img: "/assets/img/image12.png",
     },
   ],
@@ -374,20 +374,20 @@ export const menuPiscina = {
     {
       title: "Club Sandwich De Lujo",
       description: "Triple capa de sabores con pollo, tocino y huevo.",
-      price: "10.00",
+      price: "11.00",
       img: "/assets/img/image16.jpeg",
     },
     {
       title: "Derretido Tres Quesos",
       description: "Tres capas de sabor con tres tipos de quesos.",
-      price: "4.50",
+      price: "5.50",
       img: "/assets/img/image26.jpeg",
     },
     {
       title: "Hamburquesa Gourmet",
       description:
         "Carne de res premium, queso cheddar, vegetales y aderezos selectos.",
-      price: "10.00",
+      price: "11.00",
       img: "",
     },
   ],
@@ -395,27 +395,27 @@ export const menuPiscina = {
     {
       title: "Alitas Búffalo",
       description: "6 unidades de alitas en salsa BBQ o búfalo.",
-      price: "10.00",
+      price: "11.00",
       img: "/assets/img/image27.png",
     },
     {
       title: "Picada Mixta",
       description:
         "Picada de res, pollo y chorizo con patacones y papas fritas.",
-      price: "15.00",
+      price: "16.00",
       img: "",
     },
     {
       title: "Filete De Res A La Parrilla",
       description: "Filete de res en salsa de pimienta, acompañado de puré.",
-      price: "14.50",
+      price: "15.50",
       img: "/assets/img/image19.png",
     },
     {
       title: "Pollo Herb Garden",
       description:
         "Pechuga de pollo sazonada con finas hiervas, servida con ensalada.",
-      price: "14.00",
+      price: "15.00",
       img: "/assets/img/image18.png",
     },
   ],
@@ -426,27 +426,27 @@ export const menuInfantil = {
     {
       title: "Deditos De Pollo",
       description: "Deditos de pollo acompañado de papas fritas.",
-      price: "7.50",
+      price: "8.50",
       img: "/assets/img/image25.png",
     },
     {
       title: "Derretido Tres Quesos",
       description: "Tres capas de sabor con tres tipos de quesos.",
-      price: "4.50",
+      price: "5.50",
       img: "/assets/img/image26.jpeg",
     },
     {
       title: "Hamburquesa Gourmet",
       description:
         "Carne de res premium, queso cheddar, vegetales y aderezos selectos.",
-      price: "10.00",
+      price: "11.00",
       img: "",
     },
     {
       title: "Pasta Maestro",
       description:
         "Elija entre fettuccine, spaguetti, pomodo o penne. Salsas: pomodoro, alfredo, bechanel y oleo.",
-      price: "7.00",
+      price: "8.00",
       img: "/assets/img/pastaconpollo.jpg",
       extras: [
         { title: "Pollo", price: "4.50" },
@@ -458,14 +458,14 @@ export const menuInfantil = {
       title: "Pollo Parmesano",
       description:
         "Pechuga de pollo empanizada con queso parmesano y salsa de tomate.",
-      price: "12.00",
+      price: "13.00",
       img: "/assets/img/image17.png",
     },
     {
       title: "Filete De Res A La Parrilla",
       description:
         "Filete de res en salsa de pimienta, acompañado de puré de papas.",
-      price: "14.50",
+      price: "15.50",
       img: "/assets/img/image19.png",
     },
   ],
