@@ -7,7 +7,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Pancakes Dorados",
       description: "Pancake con sirope y frutas frescas.",
-      price: "7.00",
+      price: "6.00",
       img: "/assets/img/image1.jpeg",
     },
     {
@@ -15,7 +15,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Tostadas Francesas",
       description: "Tostadas francesas con un toque de canela y vainilla.",
-      price: "7.00",
+      price: "6.00",
       img: "/assets/img/image2.png",
     },
     {
@@ -23,7 +23,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Desayuno Continental Europeo",
       description: "Selección de panes, quesos finos y carnes frías.",
-      price: "7.00",
+      price: "6.00",
       img: "/assets/img/image3.jpeg",
     },
     {
@@ -31,7 +31,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Desayuno Americano Clásico",
       description: "Huevos al gusto, tocino y papas doradas.",
-      price: "10.00",
+      price: "9.00",
       img: "/assets/img/image4.jpeg",
     },
     {
@@ -39,7 +39,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Frescura Matutina",
       description: "Plato de frutas de temporada.",
-      price: "6.00",
+      price: "5.00",
       img: "/assets/img/image5.jpeg",
     },
     {
@@ -47,7 +47,7 @@ export const menuRestaurante = {
       category: "desayunos",
       title: "Parfait",
       description: "Yogourt, granola y frutas.",
-      price: "5.50",
+      price: "4.50",
       img: "/assets/img/image6.jpeg",
     },
   ],
