@@ -76,7 +76,7 @@ export const menuRestaurante = {
       title: "Capresse Al Oleo",
       description: "Tomate mozzarela fresca y albahaca.",
       price: "9.00",
-      img: "/assets/img/image9.png",
+      img: "/assets/img/caprese.jpg",
     },
     {
       _id: "0010",
@@ -85,7 +85,7 @@ export const menuRestaurante = {
       description:
         "Patacon relleno de carne ahumada con suaves toques de romero.",
       price: "8.00",
-      img: "/assets/img/carneahu.jpg",
+      img: "/assets/img/carne_ahumada.jpg",
     },
     {
       _id: "0011",
@@ -191,7 +191,7 @@ export const menuRestaurante = {
       description:
         "Pechuga de pollo sazonada con finas hiervas, servida con ensalada.",
       price: "15.00",
-      img: "/assets/img/image18.png",
+      img: "/assets/img/pollo_hg.jpg",
     },
   ],
   carnes: [
@@ -220,7 +220,7 @@ export const menuRestaurante = {
       title: "Corvina Verde Esmeralda",
       description: "Corvina en salsa de tomatillo verde, acompañada de arroz.",
       price: "17.50",
-      img: "/assets/img/image21.png",
+      img: "/assets/img/corvina.jpg",
     },
     {
       _id: "0026",
@@ -229,7 +229,7 @@ export const menuRestaurante = {
       description:
         "Salmón fresco bañado en salsa de maracuya, acompañado de vegetales.",
       price: "19.00",
-      img: "/assets/img/image22.png",
+      img: "/assets/img/salmon.jpg",
     },
     {
       _id: "0027",
