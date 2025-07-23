@@ -58,7 +58,7 @@ export const menuRestaurante = {
       title: "Tiradito De Corvina",
       description:
         "Finas láminas de corvina marinada en citricos con toques de cilantro.",
-      price: "9.00",
+      price: "11.00",
       img: "/assets/img/image7.png",
     },
     {
@@ -67,7 +67,7 @@ export const menuRestaurante = {
       title: "Ensalada Jardín De La Reina",
       description:
         "Variedad de vegetales frescos de temporada con vinagreta de la casa.",
-      price: "8.00",
+      price: "10.00",
       img: "/assets/img/image8.png",
     },
     {
@@ -75,7 +75,7 @@ export const menuRestaurante = {
       category: "entradas",
       title: "Capresse Al Oleo",
       description: "Tomate mozzarela fresca y albahaca.",
-      price: "9.00",
+      price: "11.00",
       img: "/assets/img/caprese.jpg",
     },
     {
@@ -84,7 +84,7 @@ export const menuRestaurante = {
       title: "Carne Ahumada",
       description:
         "Patacon relleno de carne ahumada con suaves toques de romero.",
-      price: "8.00",
+      price: "10.00",
       img: "/assets/img/carne_ahumada.jpg",
     },
     {
@@ -93,7 +93,7 @@ export const menuRestaurante = {
       title: "Trío De Hojaldre",
       description:
         "Combinación de vegetales, carne ahumada y pollo en masa panameña.",
-      price: "10.00",
+      price: "12.00",
       img: "/assets/img/image10.png",
     },
   ],
@@ -103,7 +103,7 @@ export const menuRestaurante = {
       category: "sopas",
       title: "Sancocho Tradicional Panameño",
       description: "Sazón panameña de pollo con tubérculos.",
-      price: "7.00",
+      price: "9.00",
       img: "/assets/img/image11.png",
     },
     {
@@ -111,7 +111,7 @@ export const menuRestaurante = {
       category: "sopas",
       title: "Crema De Zapallo Andino",
       description: "Sopa cremosa de zapallo con un toque de nuez moscada.",
-      price: "7.00",
+      price: "9.00",
       img: "/assets/img/image12.png",
     },
   ],
@@ -122,15 +122,15 @@ export const menuRestaurante = {
       title: "Hamburquesa Gourmet",
       description:
         "Carne de res premium, queso cheddar, vegetales y aderezos selectos.",
-      price: "11.00",
-      img: "",
+      price: "13.00",
+      img: "/assets/img/hamburguesa.jpg",
     },
     {
       _id: "0016",
       category: "emparedados",
       title: "Emparedado Verde",
       description: "Vegetales asados, queso búfala.",
-      price: "10.00",
+      price: "12.00",
       img: "/assets/img/image13.png",
     },
     {
@@ -138,7 +138,7 @@ export const menuRestaurante = {
       category: "emparedados",
       title: "Emparedado De Pollo",
       description: "Gama selecta de vegetales, pollo y mayonesa de aguacate.",
-      price: "10.00",
+      price: "12.00",
       img: "/assets/img/image14.png",
     },
     {
@@ -146,7 +146,7 @@ export const menuRestaurante = {
       category: "emparedados",
       title: "Emparedado De Res",
       description: "Carne selecta, vegetales de temporada y queso mozarella.",
-      price: "12.00",
+      price: "14.00",
       img: "/assets/img/image15.png",
     },
     {
@@ -154,7 +154,7 @@ export const menuRestaurante = {
       category: "emparedados",
       title: "Club Sandwich De Lujo",
       description: "Triple capa de sabores con pollo, tocino y huevo.",
-      price: "11.00",
+      price: "13.00",
       img: "/assets/img/image16.jpeg",
     },
   ],
@@ -165,7 +165,7 @@ export const menuRestaurante = {
       title: "Pasta Maestro",
       description:
         "Elija entre fettuccine, spaguetti o penne. Salsas: pomodoro, alfredo, bechamel y oleo.",
-      price: "8.00",
+      price: "10.00",
       img: "/assets/img/pastaconpollo.jpg",
       extras: [
         { title: "Pollo", price: "4.50" },
@@ -181,7 +181,7 @@ export const menuRestaurante = {
       title: "Pollo Parmesano",
       description:
         "Pechuga de pollo empanizada con queso parmesano y salsa de tomate.",
-      price: "13.00",
+      price: "15.00",
       img: "/assets/img/image17.png",
     },
     {
@@ -190,7 +190,7 @@ export const menuRestaurante = {
       title: "Pollo Herb Garden",
       description:
         "Pechuga de pollo sazonada con finas hiervas, servida con ensalada.",
-      price: "15.00",
+      price: "17.00",
       img: "/assets/img/pollo_hg.jpg",
     },
   ],
@@ -201,7 +201,7 @@ export const menuRestaurante = {
       title: "Filete De Res A La Parrilla",
       description:
         "Filete de res en salsa de pimienta, acompañado de puré de papas.",
-      price: "15.50",
+      price: "17.50",
       img: "/assets/img/image19.png",
     },
     {
@@ -209,7 +209,7 @@ export const menuRestaurante = {
       category: "carnes",
       title: "Baby Beech Al Chimichurry",
       description: "Filete a la brasa acompañado de un pimiento relleno.",
-      price: "17.50",
+      price: "19.50",
       img: "/assets/img/image20.png",
     },
   ],
@@ -219,7 +219,7 @@ export const menuRestaurante = {
       category: "mariscos",
       title: "Corvina Verde Esmeralda",
       description: "Corvina en salsa de tomatillo verde, acompañada de arroz.",
-      price: "17.50",
+      price: "19.50",
       img: "/assets/img/corvina.jpg",
     },
     {
@@ -228,7 +228,7 @@ export const menuRestaurante = {
       title: "Salmón Nórdico",
       description:
         "Salmón fresco bañado en salsa de maracuya, acompañado de vegetales.",
-      price: "19.00",
+      price: "21.00",
       img: "/assets/img/salmon.jpg",
     },
     {
@@ -236,7 +236,7 @@ export const menuRestaurante = {
       category: "mariscos",
       title: "Camarones Tropical Dream",
       description: "Camarones delicadamente cocidos en un fumet de ajillo.",
-      price: "13.00",
+      price: "15.00",
       img: "/assets/img/image23.png",
     },
     {
@@ -245,8 +245,17 @@ export const menuRestaurante = {
       title: "Cazuela Marina De Marisco",
       description:
         "Selección de mariscos en caldo aromático de coco, toques de azafrán y finas hiervas.",
-      price: "13.00",
+      price: "15.00",
       img: "/assets/img/image24.png",
+    },
+    {
+      _id: "0038",
+      category: "mariscos",
+      title: "Langostinos",
+      description:
+        "Langostinos frescos salteados con ajo y perejil, acompañados de arroz y ensalada.",
+      price: "25.00",
+      img: "/assets/img/langostinos.jpg",
     },
   ],
   acompanamientos: [
@@ -440,7 +449,7 @@ export const menuInfantil = {
       description:
         "Carne de res premium, queso cheddar, vegetales y aderezos selectos.",
       price: "11.00",
-      img: "",
+      img: "/assets/img/hamburguesa.jpg",
     },
     {
       title: "Pasta Maestro",
